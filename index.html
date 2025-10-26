@@ -1,0 +1,231 @@
+<![CDATA[<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NicaTrueque – Landing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#top" class="brand" aria-label="NicaTrueque inicio">
+        <span class="brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon-20">
+            <path d="M4 8.5A4.5 4.5 0 0 1 8.5 4h2A4.5 4.5 0 0 1 15 8.5V11h2.5A2.5 2.5 0 0 1 20 13.5V16a4 4 0 0 1-4 4h-1.5V17A3 3 0 0 0 11.5 14h-2A3.5 3.5 0 0 1 6 10.5V8.5z" fill="currentColor" />
+          </svg>
+        </span>
+        <span class="brand-text">NicaTrueque</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="principal">
+        <a href="#features">Características</a>
+        <a href="#pricing">Precios</a>
+        <a href="#testimonials">Testimonios</a>
+        <a href="#download">Descargar</a>
+        <a href="#signin" class="btn-outline">Iniciar sesión</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Abrir menú" id="menuBtn">
+        <svg viewBox="0 0 24 24" class="icon-20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="mobileNav" aria-label="principal móvil">
+      <a href="#features">Características</a>
+      <a href="#pricing">Precios</a>
+      <a href="#testimonials">Testimonios</a>
+      <a href="#download">Descargar</a>
+      <a href="#signin" class="btn-outline">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1 class="h1">NicaTrueque: Vende, Cambia y Conecta</h1>
+          <p class="lead">
+            Tu mercado para vender, intercambiar productos y conectar con tu comunidad.
+          </p>
+          <div class="btn-row" id="download">
+            <a href="#appstore" class="btn-primary">Descargar en App Store</a>
+            <a href="#" class="store-badge" aria-label="Descargar en App Store">
+              <span class="badge-icon">
+                <svg viewBox="0 0 24 24" class="icon-20" aria-hidden="true">
+                  <path d="M16 13c0-3 2-4 2-4s-2-3-5-1c-1-1-2-1-3-1-2 0-4 2-4 5 0 2 2 6 4 6 1 0 2-1 3-1s2 1 3 1c1 0 2-1 3-3-2-1-3-2-3-2z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="badge-text"><small>Descargar en</small><strong>App Store</strong></span>
+            </a>
+            <a href="#" class="store-badge" aria-label="Obtener en Google Play">
+              <span class="badge-icon">
+                <img src="assets/1759745319286.jpg" alt="Google Play Icon" class="icon-20">
+              </span>
+              <span class="badge-text"><small>OBTENER EN</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="phone-wrap">
+          <div class="phone" role="img" aria-label="Mockup de teléfono con imagen de activo">
+            <div class="notch" aria-hidden="true"></div>
+            <div class="screen">
+              <!-- Media animada con fallback -->
+              <img src="assets/logo.jpg" alt="Logo de NicaTrueque" class="phone-screen-image">
+              <div id="svgFallback" class="svg-fallback" aria-label="Animación alternativa del logo" hidden>
+                <svg viewBox="0 0 200 200" class="svg-card" role="img">
+                  <defs>
+                    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#fb7185" />
+                      <stop offset="100%" stop-color="#f97316" />
+                    </linearGradient>
+                  </defs>
+                  <g stroke="url(#g1)" stroke-width="14" fill="none" stroke-linecap="round">
+                    <path d="M40 80h70a28 28 0 1 0 0-56H25" />
+                    <path d="M160 120h-70a28 28 0 1 0 0 56h85" />
+                  </g>
+                  <g fill="#fb7185">
+                    <polygon points="25,24 45,10 45,38">
+                      <animateTransform attributeName="transform" type="rotate" from="0 35 24" to="360 35 24" dur="3s" repeatCount="indefinite" />
+                    </animateTransform>
+                  </g>
+                  <g fill="#f97316">
+                    <polygon points="175,176 155,162 155,190">
+                      <animateTransform attributeName="transform" type="rotate" from="360 165 176" to="0 165 176" dur="3s" repeatCount="indefinite" />
+                    </animateTransform>
+                  </g>
+                </svg>
+              </div>
+              <span id="mediaStatus" class="media-chip">Estado: cargando</span>
+            </div>
+            <div class="side-btn left"></div>
+            <div class="side-btn right short"></div>
+            <div class="side-btn right long"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" class="icon-24"><path d="M4 7h16l-2 11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L4 7zm3-3h10l1 3H6l1-3z" fill="currentColor"/></svg>
+          </div>
+          <h3>Vende tus Productos</h3>
+          <p>Publica y administra tus listados con facilidad. Recibe mensajes, ofertas y organiza entregas desde la app.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" class="icon-24"><path d="M6 7h7a4 4 0 1 1 0 8H5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M18 17H11a4 4 0 1 1 0-8h8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Intercambia con Otros</h3>
+          <p>Haz trueques seguros y transparentes. Negocia y concreta intercambios en tu zona.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" class="icon-24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm-7 9a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Conecta & Organiza</h3>
+          <p>Crea grupos, organiza eventos y mantente al tanto con notificaciones y herramientas de comunidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container cta-inner">
+        <div>
+          <h3 class="h2">Empieza hoy</h3>
+          <p>Descarga la app y únete a la comunidad de trueques.</p>
+        </div>
+        <div class="btn-row">
+          <a href="#" class="store-badge" aria-label="Descargar en App Store">
+            <span class="badge-icon">
+              <svg viewBox="0 0 24 24" class="icon-20" aria-hidden="true">
+                <path d="M16 13c0-3 2-4 2-4s-2-3-5-1c-1-1-2-1-3-1-2 0-4 2-4 5 0 2 2 6 4 6 1 0 2-1 3-1s2 1 3 1c1 0 2-1 3-3-2-1-3-2-3-2z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="badge-text"><small>Descargar en</small><strong>App Store</strong></span>
+          </a>
+          <a href="#" class="store-badge" aria-label="Obtener en Google Play">
+              <span class="badge-icon">
+                <img src="assets/1759745319286.jpg" alt="Google Play Icon" class="icon-20">
+              </span>
+            <span class="badge-text"><small>OBTENER EN</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-image-background" style="background-image: url('assets/0709489977f64188b4ff496ad0674863.png'); background-size: cover; background-position: center; height: 500px; max-height: 70vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; padding: 20px;">
+      <div class="container">
+        <h2>Featured Asset</h2>
+        <p>Check out this special asset.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-row">
+          <span class="brand-logo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon-20">
+              <path d="M4 8.5A4.5 4.5 0 0 1 8.5 4h2A4.5 4.5 0 0 1 15 8.5V11h2.5A2.5 2.5 0 0 1 20 13.5V16a4 4 0 0 1-4 4h-1.5V17A3 3 0 0 0 11.5 14h-2A3 3 0 0 1 6 10.5V8.5z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-text">NicaTrueque</span>
+        </div>
+        <p class="muted">Trueques simples y locales. Compra, vende, intercambia y conecta.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Twitter" class="social"><span class="visually-hidden">Twitter</span></a>
+          <a href="#" aria-label="Facebook" class="social"><span class="visually-hidden">Facebook</span></a>
+          <a href="#" aria-label="Instagram" class="social"><span class="visually-hidden">Instagram</span></a>
+        </div>
+      </div>
+
+      <div class="links-grid">
+        <div>
+          <h4>Producto</h4>
+          <ul>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="#">Soporte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guías</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Compañía</h4>
+          <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Prensa</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> NicaTrueque. Todos los derechos reservados.</p>
+      <div class="legal">
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>]]>
