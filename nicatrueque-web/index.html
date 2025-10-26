@@ -1,0 +1,281 @@
+<![CDATA[<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NicaTrueque – Landing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#top" class="brand" aria-label="NicaTrueque inicio">
+        <span class="brand-logo">
+          <img src="assets/logo.jpg" alt="NicaTrueque logo">
+        </span>
+        <span class="brand-text">NicaTrueque</span>
+      </a>
+
+  <nav class="nav-desktop" aria-label="principal">
+    <a href="about.html">Características</a>
+    <a href="#testimonials">Testimonios</a>
+    <a href="#download">Descargar</a>
+  <a href="https://nicatrueque.online" class="btn-outline">Iniciar sesión</a>
+  </nav>
+
+      <button class="menu-btn" aria-label="Abrir menú" id="menuBtn">
+        <svg viewBox="0 0 24 24" class="icon-20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+      <nav class="nav-mobile" id="mobileNav" aria-label="principal móvil">
+      <a href="about.html">Características</a>
+      <a href="#testimonials">Testimonios</a>
+      <a href="#download">Descargar</a>
+  <a href="https://nicatrueque.online" class="btn-outline">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <!-- animated gold background (scoped to hero) -->
+      <div class="gold-bg" aria-hidden="true"></div>
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="animate-left">
+          <h1 class="h1">NicaTrueque:<br><span style="color: #FF9B73;">Vende, Cambia</span><br>& Conecta</h1>
+          <p class="lead">
+            Tu comunidad de intercambio local.
+          </p>
+          <div class="btn-row" id="download">
+            <a href="https://nicatrueque.online" class="btn-primary">Acceder a Web App</a>
+            <a href="#" class="store-badge" aria-label="ios App">
+              <span class="badge-icon">
+                <img src="assets/appstore-icon.png" alt="App Store" class="icon-20">
+              </span>
+              <span class="badge-text"><small>Acceder a</small><strong>ios App</strong></span>
+            </a>
+            <a href="#" class="store-badge" aria-label="Obtener en Google Play">
+              <span class="badge-icon">
+                <img src="assets/icona.png" alt="Google Play" class="icon-20">
+              </span>
+              <span class="badge-text"><small>OBTENER EN</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="phone-wrap animate-right">
+          <div class="phone" role="img" aria-label="Mockup de teléfono con imagen de activo">
+            <div class="notch" aria-hidden="true"></div>
+            <div class="screen">
+              <!-- Media animada con fallback -->
+              <img src="assets/logo.jpg" alt="Logo de NicaTrueque" class="phone-screen-image">
+              <div id="svgFallback" class="svg-fallback" aria-label="Animación alternativa del logo" hidden>
+                <svg viewBox="0 0 200 200" class="svg-card" role="img">
+                  <defs>
+                    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#fb7185" />
+                      <stop offset="100%" stop-color="#f97316" />
+                    </linearGradient>
+                  </defs>
+                  <g stroke="url(#g1)" stroke-width="14" fill="none" stroke-linecap="round">
+                    <path d="M40 80h70a28 28 0 1 0 0-56H25" />
+                    <path d="M160 120h-70a28 28 0 1 0 0 56h85" />
+                  </g>
+                  <g fill="#fb7185">
+                    <polygon points="25,24 45,10 45,38">
+                      <animateTransform attributeName="transform" type="rotate" from="0 35 24" to="360 35 24" dur="3s" repeatCount="indefinite" />
+                    </animateTransform>
+                  </g>
+                  <g fill="#f97316">
+                    <polygon points="175,176 155,162 155,190">
+                      <animateTransform attributeName="transform" type="rotate" from="360 165 176" to="0 165 176" dur="3s" repeatCount="indefinite" />
+                    </animateTransform>
+                  </g>
+                </svg>
+              </div>
+              <span id="mediaStatus" class="media-chip">Estado: cargando</span>
+            </div>
+            <div class="side-btn left"></div>
+            <div class="side-btn right short"></div>
+            <div class="side-btn right long"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container grid-3">
+        <article class="card animate-left">
+          <div class="card-icon">
+            <img src="assets/Purpler_Icon/1.png" alt="Vender icono">
+          </div>
+          <h3>Vende tus Productos</h3>
+          <p>Publica y administra tus listados con facilidad. Recibe mensajes, ofertas y organiza entregas desde la app.</p>
+        </article>
+        <article class="card animate-up">
+          <div class="card-icon">
+            <img src="assets/Purpler_Icon/2.png" alt="Intercambio icono">
+          </div>
+          <h3>Intercambia con Otros</h3>
+          <p>Haz trueques seguros y transparentes. Negocia y concreta intercambios en tu zona.</p>
+        </article>
+        <article class="card animate-right">
+          <div class="card-icon">
+            <img src="assets/Purpler_Icon/3.png" alt="Conectar icono">
+          </div>
+          <h3>Conecta & Organiza</h3>
+          <p>Crea grupos, organiza eventos y mantente al tanto con notificaciones y herramientas de comunidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container cta-inner">
+        <div class="animate-left">
+          <h3 class="h2">Empieza hoy</h3>
+          <p>Descarga la app y únete a la comunidad de trueques.</p>
+        </div>
+        <div class="btn-row animate-right">
+          <a href="#" class="store-badge" aria-label="Descargar en App Store">
+            <span class="badge-icon">
+              <img src="assets/appstore-icon.png" alt="App Store" class="icon-20">
+            </span>
+            <span class="badge-text"><small>Descargar en</small><strong>App Store</strong></span>
+          </a>
+          <a href="#" class="store-badge" aria-label="Obtener en Google Play">
+              <span class="badge-icon">
+                <img src="assets/icona.png" alt="Google Play" class="icon-20">
+              </span>
+            <span class="badge-text"><small>OBTENER EN</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2 class="h2" style="text-align: center; margin-bottom: 2rem;">Lo que dicen nuestros usuarios</h2>
+        <div class="testimonials-grid">
+          <article class="testimonial-card animate-left">
+            <div class="testimonial-content">
+              <img src="assets/Purpler_Icon/5.png" alt="Estrella" class="star-icon">
+              <p class="testimonial-text">"NicaTrueque me ha permitido intercambiar objetos que ya no usaba por cosas que realmente necesitaba. ¡La comunidad es increíble!"</p>
+              <div class="testimonial-author">
+                <strong>María González</strong>
+                <span>Usuario desde 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card animate-up">
+            <div class="testimonial-content">
+              <img src="assets/Purpler_Icon/5.png" alt="Estrella" class="star-icon">
+              <p class="testimonial-text">"La plataforma es muy fácil de usar y he conocido personas maravillosas. Los intercambios son seguros y transparentes."</p>
+              <div class="testimonial-author">
+                <strong>Carlos Martínez</strong>
+                <span>Usuario desde 2023</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card animate-right">
+            <div class="testimonial-content">
+              <img src="assets/Purpler_Icon/5.png" alt="Estrella" class="star-icon">
+              <p class="testimonial-text">"Gracias a NicaTrueque he podido dar nueva vida a objetos y encontrar tesoros únicos. ¡La mejor comunidad de intercambios!"</p>
+              <div class="testimonial-author">
+                <strong>Ana Pérez</strong>
+                <span>Usuario desde 2024</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-image-background" style="background-image: url('assets/0709489977f64188b4ff496ad0674863.png'); background-size: cover; background-position: center; height: 600px; max-height: 84vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; padding: 20px;">
+      <div class="container animate-up">
+        <!-- Featured asset text removed per request -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="animate-left">
+        <div class="brand-row">
+          <span class="brand-logo" aria-hidden="true">
+            <img src="assets/logo.jpg" alt="NicaTrueque logo">
+          </span>
+          <span class="brand-text">NicaTrueque</span>
+        </div>
+        <p class="muted">Trueques simples y locales. Compra, vende, intercambia y conecta.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/nicatrueque.2025?rdid=Xfap9wgtmi3L8c10&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1KpmhN8hHo%2F#" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social"><img src="assets/Purpler_Icon/twitter.png" alt="Twitter" class="social-icon"></a>
+          <a href="https://www.facebook.com/nicatrueque.2025?rdid=Xfap9wgtmi3L8c10&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1KpmhN8hHo%2F#" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social"><img src="assets/Purpler_Icon/facebook.png" alt="Facebook" class="social-icon"></a>
+          <a href="https://www.facebook.com/nicatrueque.2025?rdid=Xfap9wgtmi3L8c10&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1KpmhN8hHo%2F#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social"><img src="assets/Purpler_Icon/instagram.png" alt="Instagram" class="social-icon"></a>
+        </div>
+      </div>
+
+      <div class="links-grid animate-right">
+        <div>
+          <h4>Producto</h4>
+          <ul>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="mailto:nicatruequ@gmail.com?subject=Soporte%20NicaTrueque" title="Contactar a soporte">Soporte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guías</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Compañía</h4>
+          <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="mailto:nicatruequ@gmail.com" title="Envíanos un correo">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> NicaTrueque. Todos los derechos reservados.</p>
+      <div class="legal">
+        <a href="#">Términos y privacidad</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Animation observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    // Observe all animated elements
+    document.addEventListener('DOMContentLoaded', () => {
+      const animatedElements = document.querySelectorAll('.animate-left, .animate-right, .animate-up');
+      animatedElements.forEach(el => observer.observe(el));
+
+      // Update copyright year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>]]>
