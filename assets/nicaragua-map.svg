@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" role="img" aria-label="Mapa de Nicaragua">
+  <defs>
+    <linearGradient id="nicaMapGrad" x1="5%" y1="0%" x2="95%" y2="100%">
+      <stop offset="0%" stop-color="#F72798"/>
+      <stop offset="50%" stop-color="#F57D1F"/>
+      <stop offset="100%" stop-color="#EBF400"/>
+    </linearGradient>
+    <filter id="nicaMapGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path
+    fill="url(#nicaMapGrad)"
+    stroke="#EBF400"
+    stroke-width="1.8"
+    stroke-linejoin="round"
+    filter="url(#nicaMapGlow)"
+    opacity="0.95"
+    d="M168.242,237.227L158.994,245.679L147.503,242.996L141.057,234.878L128.586,231.522L119.758,236.69L94.115,226.217L88.229,231.321L74.777,218.827L56.561,202.82L48.013,189.351L31.618,176.876L12,158.846L16.344,152.693L22.79,158.643L25.732,155.872L37.783,154.181L42.688,145.048L48.433,144.71L47.592,125.061L56.701,124.111L64.828,124.382L73.236,113.659L84.726,121.804L88.79,116.782L95.936,112.029L109.529,100.951L110.089,92.719L113.873,93.059L118.917,83.457L122.981,82.298L129.567,88.429L137.414,90.268L145.962,85.092L155.771,85.092L169.363,79.845L174.688,74.321L188,75.14L184.637,79.027L182.675,88.021L186.739,102.719L177.771,116.443L173.567,132.518L172.306,150.191L174.408,160.468L175.389,178.428L169.363,182.34L165.72,199.387L168.382,209.885L160.535,220.037L162.217,230.716Z"/>
+</svg>

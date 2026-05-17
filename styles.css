@@ -495,6 +495,92 @@ body::before {
   border-radius: var(--radius-sm);
 }
 
+/* ====== Nica pride ====== */
+.nica-pride {
+  position: relative;
+  padding: 3.5rem 0 4rem;
+  overflow: hidden;
+}
+
+.nica-pride-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 40%, rgba(247, 39, 152, 0.32), transparent 55%),
+    radial-gradient(ellipse 70% 55% at 85% 55%, rgba(245, 125, 31, 0.25), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(235, 244, 0, 0.12), transparent 60%);
+}
+
+.nica-pride-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.nica-pride-copy {
+  max-width: 36rem;
+}
+
+.nica-pride-eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.nica-pride-title {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.nica-map-panel {
+  width: 100%;
+  max-width: 336px;
+  padding: 1.5rem 1.25rem;
+  border-radius: var(--radius);
+  box-shadow:
+    0 0 48px var(--glow-pink),
+    0 0 32px var(--glow-orange),
+    0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.nica-map {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 18px var(--glow-yellow));
+}
+
+@media (min-width: 768px) {
+  .nica-pride-inner {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+  }
+
+  .nica-pride-copy {
+    flex: 1 1 0;
+    max-width: 28rem;
+  }
+
+  .nica-map-panel {
+    flex: 0 0 auto;
+    max-width: 360px;
+  }
+}
+
 /* ====== CTA ====== */
 .cta { padding: 3.5rem 0; }
 
