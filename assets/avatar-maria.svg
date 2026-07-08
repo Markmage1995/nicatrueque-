@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="María González">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F72798"/>
+      <stop offset="100%" stop-color="#F57D1F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#g1)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="52" fill="rgba(247,39,152,0.25)"/>
+  <text x="60" y="68" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#EBF400">M</text>
+</svg>
